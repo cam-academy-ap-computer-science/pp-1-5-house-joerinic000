@@ -22,24 +22,24 @@ public class House {
 }
 	public static void Verse1() {
 		System.out.println("This is the malt");
-		System.out.println("That lay in the house that Jack built.");
+		JackHouse();
 	}
 	public static void Verse2() {
 		System.out.println("This is the rat,");
-		System.out.println("That ate the malt");
-		System.out.println("That lay in the house that Jack built.");
+		Malt();
+		JackHouse();
 	}
 	public static void Verse3() {
 		System.out.println("This is the cat,");
-		System.out.println("That killed the rat,");
-		System.out.println("That ate the malt");
-		System.out.println("That lay in the house that Jack built.");
+		Rat();
+		Malt();
+		JackHouse();
 	}
 	public static void Repeat() {
-		System.out.println("That worried the cat,");
-		System.out.println("That killed the rat,");
-		System.out.println("That ate the malt");
-		System.out.println("That lay in the house that Jack built.");
+		Cat();
+		Rat();
+		Malt();
+		JackHouse();
 	}
 	public static void Verse4() {
 		System.out.println("The is the dog,");
@@ -47,13 +47,31 @@ public class House {
 	}
 	public static void Verse5() {
 		System.out.println("This is the cow with the crumpled horn,");
-		System.out.println("That tossed the dog,");
+		Dog();
 		Repeat();
 	}
 	public static void Verse6() {
 		System.out.println("This is the maiden all forlorn");
-		System.out.println("That milked the cow with the crumpled horn,");
-		System.out.println("That tossed the dog");
+		
+		Dog();
 		Repeat();
+	}
+	public static void JackHouse() {
+		System.out.println("That lay in the house that Jack built.");
+	}
+	public static void Malt() {
+		System.out.println("That ate the malt");
+	}
+	public static void Rat() {
+		System.out.println("That killed the rat,");
+	}
+	public static void Cat() {
+		System.out.println("That worried the cat,");
+	}
+	public static void Dog() {
+	System.out.println("That tossed the dog,");
+	}
+	public static void Cow() {
+		System.out.println("That milked the cow with the crumpled horn,");
 	}
 }
