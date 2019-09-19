@@ -1,0 +1,28 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		22/25
+
+Compiles and Runs:	15/15
+Correct Output:		4/6
+Consistent Style:	1/2
+Efficiency:			2/2
+
+Good work!  Your program is very clean and well-organized.
+
+Your final verse is missing one line.  It doesn't have the line
+about the cow.  I took off two points for that.
+
+For future projects, you will want to start adding comments.
+Everybody does comments slightly differently, but at a minimum
+it would have been good to have a comment for the set of
+methods that did the verses, and a comment for the set of
+methods that did the individual lines within the verses.
+
+You did a good job realizing that a series of lines was being
+repeated as a group, and putting them into a Repeat() method.
+That improved efficiency.  You could have extended that same
+concept even further, using the fact that JackHouse() is always
+called immediately after Malt(), Malt() is always called
+immediately after Rat(), etc., to build even more structure
+and efficiency.  But, you get full points for Efficiency.
+Well done.
